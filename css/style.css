@@ -1,0 +1,50 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    list-style: none;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+
+}
+header{
+    background-color: black;
+    min-height: 10vh;
+    font-size: 1.5rem;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+
+}
+
+.le{
+    color: white;
+    align-items: center;
+    display: flex;
+    height: 10vh;
+}
+
+.imgChevere{
+    height: 90vh;
+}
+.imgChevere img{
+  width: 100%;
+  height: 90vh;
+}
+.ti{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desc{
+    height:90vh;
+    font-size: 1.5rem;
+}
